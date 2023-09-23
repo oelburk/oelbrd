@@ -1,12 +1,10 @@
 # oelbrd
 
-![oelbrd](imgur.com image replace me!)
-
-*A short description of the keyboard/project*
+*Custom designed PCB based on a typical GH60*
 
 * Keyboard Maintainer: [Alfred Tång](https://github.com/oelburk)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: *Custom PCB*
+* Hardware Availability: *Reach out to me on the Swedish Mech Discord - [Swe Mech Keebs Community](http://mekaniskatangentbord.se/)*
 
 Make example for this keyboard (after setting up your build environment):
 
