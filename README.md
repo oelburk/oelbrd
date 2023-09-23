@@ -105,6 +105,19 @@ This is an example of how you can create your own keymap for the oelbrd.
 5. Compile the new layout using QMK
 6. Flash new layout
 
+### VIA support
+
+There are currently some strange issues with the implemented VIA support, complaining about missing version definitons etc.
+
+To fix this issue:
+1. Open qmk_firware/quantum/via.h
+2. Replace the define `VIA_PROTOCOL_VERSION` at row 62
+   ```C
+    VIA_PROTOCOL_VERSION 0x0009
+   ```
+3. Re-compile your keymap.
+4. Enjoy VIA!
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
