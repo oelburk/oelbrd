@@ -59,7 +59,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Product Name Screen Shot][product-screenshot]
 
 Small project containing the PCB design files (KiCad project) along with the source code for different keymaps for my custom designed 60% keyboard.
 
