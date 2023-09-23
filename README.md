@@ -102,15 +102,23 @@ This is an example of how you can create your own keymap for the oelbrd.
    cp QMK/keymaps/default/keymap.c QMK/keymaps/my-keymap
    ```
 4. Edit `keymap.c` with preferred layout
-5. Compile the new layout using QMK
-6. Flash new layout
+5. Create oelbrd in QMK
+   ```sh
+   qmk new-keyboard oelbrd
+   ```
+6. Copy over contents from the QMK folder to new oelbrd directory in QMK repo, usally `../qmk_firmware/keyboards/oelbrd`
+7. Compile the new keymap using QMK
+   ```sh
+   qmk compile -kb oelbrd -kb my-keymap
+   ```
+8. Flash new layout
 
 ### VIA support
 
 There are currently some strange issues with the implemented VIA support, complaining about missing version definitons etc.
 
 To fix this issue:
-1. Open qmk_firware/quantum/via.h
+1. Open `qmk_firware/quantum/via.h`
 2. Replace the define `VIA_PROTOCOL_VERSION` at row 62
    ```C
     VIA_PROTOCOL_VERSION 0x0009
