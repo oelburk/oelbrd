@@ -1,8 +1,8 @@
 {
     "keyboard_name": "OELBRD",
     "manufacturer": "",
-    "url": "",
-    "maintainer": "qmk",
+    "url": "https://github.com/oelburk/oelbrd",
+    "maintainer": "oelburk",
     "usb": {
         "vid": "0xFEED",
         "pid": "0x0000",
@@ -94,6 +94,5 @@
                 {"label": "K47 (B4,D2)", "matrix": [4, 7], "x": 13.75, "y": 4, "w": 1.25}
            ]
         }
-    },
-    "meta": "https://noroadsleft.github.io/kbf_qmk_converter/"
+    }
 }
